@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/NCC_HANSRAJ/static/css/main.f806a546.css",
+    "main.js": "/NCC_HANSRAJ/static/js/main.64fc5a75.js",
+    "static/js/453.43708a97.chunk.js": "/NCC_HANSRAJ/static/js/453.43708a97.chunk.js",
+    "static/media/ARMY.jpg": "/NCC_HANSRAJ/static/media/ARMY.d2dce6a78588e1eb87e0.jpg",
+    "static/media/IMG1.jpg": "/NCC_HANSRAJ/static/media/IMG1.e0a04451e78209f38fd9.jpg",
+    "static/media/GUARD.JPG": "/NCC_HANSRAJ/static/media/GUARD.80daa44bc30276794e93.JPG",
+    "static/media/image2.jpg": "/NCC_HANSRAJ/static/media/image2.62d64c3c65ae8cf2a3f5.jpg",
+    "static/media/image1.jpg": "/NCC_HANSRAJ/static/media/image1.425b4a64d3c8ec2e1276.jpg",
+    "static/media/image5.jpg": "/NCC_HANSRAJ/static/media/image5.ccf375a8c1a57547d711.jpg",
+    "static/media/image3.jpg": "/NCC_HANSRAJ/static/media/image3.a7b6d7f2279e568e088a.jpg",
+    "static/media/NAAC.jpg": "/NCC_HANSRAJ/static/media/NAAC.b9f8b36d38cb5b8e7cd8.jpg",
+    "static/media/image4.jpg": "/NCC_HANSRAJ/static/media/image4.4d4b0093a9a84e647af6.jpg",
+    "static/media/image6.jpg": "/NCC_HANSRAJ/static/media/image6.56fa39f5deb826798d2e.jpg",
+    "static/media/AIR.jpg": "/NCC_HANSRAJ/static/media/AIR.0bf9a7d92c3b496ac544.jpg",
+    "static/media/NAVY.jpg": "/NCC_HANSRAJ/static/media/NAVY.8957887e61b4ecadcb72.jpg",
+    "static/media/principal.jpg": "/NCC_HANSRAJ/static/media/principal.1751b69fef679bf6ed40.jpg",
+    "static/media/Nexa-Heavy.ttf": "/NCC_HANSRAJ/static/media/Nexa-Heavy.13e16a1c3c48dd492fa9.ttf",
+    "static/media/Anomam.jpg": "/NCC_HANSRAJ/static/media/Anomam.ab7a395d41dbf5a16bd6.jpg",
+    "static/media/SNIC1.jpg": "/NCC_HANSRAJ/static/media/SNIC1.d932dbbbbe0ea6f59928.jpg",
+    "static/media/hrclogo.png": "/NCC_HANSRAJ/static/media/hrclogo.ead258fa46b8e6a07cd3.png",
+    "static/media/CDS.jpg": "/NCC_HANSRAJ/static/media/CDS.34fc23e2fbebbabcf554.jpg",
+    "static/media/Anosir.jpg": "/NCC_HANSRAJ/static/media/Anosir.56d2e0b236ef1c31d26d.jpg",
+    "static/media/logoncc.png": "/NCC_HANSRAJ/static/media/logoncc.8289c8e08df5e125c10b.png",
+    "index.html": "/NCC_HANSRAJ/index.html",
+    "main.f806a546.css.map": "/NCC_HANSRAJ/static/css/main.f806a546.css.map",
+    "main.64fc5a75.js.map": "/NCC_HANSRAJ/static/js/main.64fc5a75.js.map",
+    "453.43708a97.chunk.js.map": "/NCC_HANSRAJ/static/js/453.43708a97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f806a546.css",
+    "static/js/main.64fc5a75.js"
+  ]
+}
