@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+  font-family: 'Nexa-Heavy';
+  src: url('/Nexa-Heavy.ttf');
+}
+
+/* Define styles for the carousel container */
+.carousel {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+    margin: 0 auto;
+    z-index: 0;
+  }
+  
+  /* Style for individual carousel slides */
+  .carousel .slide {
+    background-color: #6A6D9E; /* Set background color */
+    overflow: hidden; /* Hide overflow */
+    height: 460px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+
+  }
+  
+  /* Style for carousel images */
+  .carousel .slide img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Style for carousel slide captions (optional) */
+  /*.carousel .legend {
+    color: #333; 
+    text-align: center;
+    margin-top: 10px; 
+  }*/
+  .carousel-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(0, 0, 0,7) 10%, transparent); 
+    z-index: 1; 
+  }
+  
+  .text{
+    /*font-family: 'Merriweather';*/
+    font-family: 'Nexa-heavy';
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-150%);
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    z-index: 999;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .text1{
+    /*font-family: 'Merriweather';*/
+    font-family: 'Nexa-heavy';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-40%);
+    color: #554bDc;
+    font-size: 39px;
+    text-align: left;
+    z-index: 999;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .text2{
+    /*font-family: 'Merriweather';*/
+    font-family: 'Nexa-heavy';
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(65%);
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    z-index: 999;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
