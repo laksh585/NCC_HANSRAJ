@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NCC_HANSRAJ/static/css/main.f806a546.css",
-    "main.js": "/NCC_HANSRAJ/static/js/main.64fc5a75.js",
+    "main.css": "/NCC_HANSRAJ/static/css/main.3214daba.css",
+    "main.js": "/NCC_HANSRAJ/static/js/main.c84ba4ae.js",
     "static/js/453.43708a97.chunk.js": "/NCC_HANSRAJ/static/js/453.43708a97.chunk.js",
     "static/media/ARMY.jpg": "/NCC_HANSRAJ/static/media/ARMY.d2dce6a78588e1eb87e0.jpg",
     "static/media/IMG1.jpg": "/NCC_HANSRAJ/static/media/IMG1.e0a04451e78209f38fd9.jpg",
@@ -24,12 +24,12 @@
     "static/media/Anosir.jpg": "/NCC_HANSRAJ/static/media/Anosir.56d2e0b236ef1c31d26d.jpg",
     "static/media/logoncc.png": "/NCC_HANSRAJ/static/media/logoncc.8289c8e08df5e125c10b.png",
     "index.html": "/NCC_HANSRAJ/index.html",
-    "main.f806a546.css.map": "/NCC_HANSRAJ/static/css/main.f806a546.css.map",
-    "main.64fc5a75.js.map": "/NCC_HANSRAJ/static/js/main.64fc5a75.js.map",
+    "main.3214daba.css.map": "/NCC_HANSRAJ/static/css/main.3214daba.css.map",
+    "main.c84ba4ae.js.map": "/NCC_HANSRAJ/static/js/main.c84ba4ae.js.map",
     "453.43708a97.chunk.js.map": "/NCC_HANSRAJ/static/js/453.43708a97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f806a546.css",
-    "static/js/main.64fc5a75.js"
+    "static/css/main.3214daba.css",
+    "static/js/main.c84ba4ae.js"
   ]
 }
