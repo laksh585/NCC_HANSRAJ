@@ -5,7 +5,6 @@ import Footer from '../components/Footer/Footer';
 function Home() {
   return (
     <div>
-      
         <Banner />
         <Desk />
         <Footer />

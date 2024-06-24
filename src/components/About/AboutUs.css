@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+.about-us {
+  font-family: 'Playfair-Display', sans-serif;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+  display:flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-color: #fff; /* Light background */
+  /*background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)); */
+  z-index: 0;
+}
+
+/* General Animation Styles */
+.animated-box {
+  position: relative;
+  overflow: hidden; /* For the hover effect */
+  margin: 20px auto;
+  width: 80%; 
+  max-width: 500px; 
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.animated-box:hover {
+  transform: translateY(-5px); /* Lift the box on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Initial Animation (slide in from left) */
+.animated-box.animated {
+  animation: slideInFromLeft 0.8s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Other Section-Specific Styles */
+
+
+  .ncc-song { 
+    text-align: center; 
+    padding: 30px; 
+    margin-bottom: 20px; /* Add spacing between song and boxes */
+  }
+
+
+.song-title {
+  font-size: 2.5rem;
+  color: #02044F; 
+  margin-bottom: 20px;
+}
+
+.song-lyrics {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.audio-player {
+  width: 100%;
+  margin: 0 auto; 
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+.section-container { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space boxes evenly */
+  width: 90%; /* Adjust width as needed */
+  margin-bottom: 20px; /* Add spacing between boxes and timeline */
+}
+.section {
+  margin: 40px 0;
+  width: 48%; /* Adjust width for boxes */
+  margin-bottom: 10px;
+  z-index: 999;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #02044F;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section p, .section ul {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.timeline-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.section-timeline { 
+  margin: 40px 0;
+  width: 100%; 
+  margin-bottom: 20px;
+ }
+ .section-timeline h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .section-timeline p{
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+ 
+.quote-section {
+  text-align: center;
+  position: relative; /* For background */
+  width: 100%;
+}
+
+.quote-container {
+  border-radius: 10px;
+}
+
+.quote-text {
+  font-size: 5rem; 
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+.motto{
+font-size: 20px;
+line-height: 1.2;
+}
+.hindi-font {
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 3rem; /* Adjust size as needed */
+}
+ 

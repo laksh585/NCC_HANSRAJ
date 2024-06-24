@@ -1,0 +1,113 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .container::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title h2{
+    color: #02044F;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .leadership {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .leadership-item {
+    text-align: center;
+  }
+  
+  .leadership-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .leadership-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .officers {
+    padding: 20px;
+  }
+  
+  .officers-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .officer-item {
+    text-align: center;
+  }
+  
+  .officer-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .officer-name {
+    margin-top: 5px;
+  }
+  
+  .about {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    line-height: 1.6;
+  }
+  
+  .achievement-gallery {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .notice-board {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .notice-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notice-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .Footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
